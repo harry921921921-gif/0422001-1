@@ -69,3 +69,171 @@ public class App {
     }
 }
 //要第三次
+
+<!-- FitCoach 教練信息 -->
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitCoach - 郭峯銘</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            max-width: 500px;
+            width: 100%;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .profile-header {
+            margin-bottom: 30px;
+        }
+        
+        .name {
+            font-size: 32px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .nickname {
+            font-size: 18px;
+            color: #999;
+            margin-bottom: 20px;
+        }
+        
+        .nav-brand {
+            font-size: 16px;
+            color: #667eea;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        
+        .certification {
+            background: #f0f0f0;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        
+        .cert-label {
+            font-size: 12px;
+            color: #999;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+        
+        .cert-name {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        
+        .cert-year {
+            font-size: 14px;
+            color: #667eea;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .stat-item {
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        
+        .stat-value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #667eea;
+        }
+        
+        .stat-label {
+            font-size: 12px;
+            color: #999;
+            margin-top: 5px;
+        }
+        
+        .contact {
+            background: #f0f0f0;
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        
+        .contact-label {
+            font-size: 12px;
+            color: #999;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        
+        .contact-link {
+            color: #667eea;
+            text-decoration: none;
+            font-size: 14px;
+            word-break: break-all;
+        }
+        
+        .contact-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-header">
+            <div class="name">郭峯銘</div>
+            <div class="nickname">FM</div>
+            <div class="nav-brand">FitCoach</div>
+        </div>
+        
+        <div class="certification">
+            <div class="cert-label">證照</div>
+            <div class="cert-name">C級教練</div>
+            <div class="cert-year">取得年份：2022</div>
+        </div>
+        
+        <div class="stats">
+            <div class="stat-item">
+                <div class="stat-value">1</div>
+                <div class="stat-label">年資</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value">PT</div>
+                <div class="stat-label">帶課學員數</div>
+            </div>
+        </div>
+        
+        <div class="contact">
+            <div class="contact-label">聯絡方式</div>
+            <a href="mailto:harry921921921@gmail.com" class="contact-link">harry921921921@gmail.com</a>
+        </div>
+    </div>
+</body>
+</html>
